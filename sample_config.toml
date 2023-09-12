@@ -1,4 +1,7 @@
+#rpc can be local OR remote
 rpc = 'http://localhost:8899'
+
+#target is the prometheus server - may be local or not
 target = '0.0.0.0:9179'
 vote_account_whitelist = [
     'a',
@@ -10,6 +13,8 @@ staking_account_whitelist = [
     'bb',
     'cc'
 ]
+
+#API key and token, not your login, update field names
 
 [maxmind]
 username = "12345"
