@@ -1,8 +1,6 @@
-# Xandeum Rust Exporter for Prometheus
+# Rust Exporter for Prometheus
 
-This will be...
-
- a complete, modular monitoring solution for Xandeum validator nodes and stake pools 
+ a complete, modular monitoring solution for  validator nodes and stake pools 
 based on the Solana Rust Exporter. The main component is a [Solana](https://github.com/solana-labs/solana) m
 etrics exporter for Prometheus
 initially based on the [Golang original](https://github.com/certusone/solana_exporter) by CertusOne
